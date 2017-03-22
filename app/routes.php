@@ -33,5 +33,5 @@ Route::get('about/{theSubject}', function($theSubject)
 
 Route::get('about/classes/{theSubject}', function($theSubject)
 {
-    return "Content about {$theSubject} classes hoes here";
+    return "Content about {$theSubject} classes hoes here. ";
 });
