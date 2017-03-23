@@ -32,11 +32,12 @@
 			margin: 16px 0 0 0;
 		}
 	</style>
+    <link rel="stylesheet" href="<?php echo asset('css/main.css'); ?>"type="text/css">
 </head>
 <body>
 	<div class="welcome">
 		<a href="http://laravel.com" title="Laravel PHP Framework"><img src="https://lastfm-img2.akamaized.net/i/u/300x300/e310d65b68944625b54bbc44ed1e6b3e.png" alt="Laravel PHP Framework"></a>
-		<h1>Can you save my HeavyDirtySoul?</h1>
+		<h1 class="highlight">Can you save my HeavyDirtySoul?</h1>
 	</div>
 </body>
 </html>
