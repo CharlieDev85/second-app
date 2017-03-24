@@ -32,6 +32,7 @@
 			margin: 16px 0 0 0;
 		}
 	</style>
+<!--    there's no need to type "public" cause asset locates the public folder-->
     <link rel="stylesheet" href="<?php echo asset('css/main.css'); ?>"type="text/css">
 </head>
 <body>
